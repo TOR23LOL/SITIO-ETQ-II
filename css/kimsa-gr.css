@@ -1,0 +1,106 @@
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+#nav-etq{
+    padding: 2px 0px 2px 0px;
+    position: relative;
+    right: 15px;
+    width: 1525px;
+    height: 129px;
+    text-align: right;
+    
+    #ul-opciones{
+        border: solid 1px rgb(0, 0, 0);
+        padding: 40px;
+        width: 1475px;
+        position: relative;
+        bottom: 21px;
+        right: 10px;
+        background-color: white;
+        
+        li{
+            display: inline-block;
+            padding: 6px 15px 5px 15px;
+            border-radius: 30px;
+            
+            a{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                font-size: 18px;
+                transition: all 0.5s;
+            }
+            
+            a:hover{
+                color: rgb(0, 28, 142);
+            }
+        }
+
+    }
+    
+    #ul-img{
+        list-style-type: none;
+
+        #img-a{
+            text-align: center;
+            position: relative;
+            padding: 78px 0px 0px 0px;
+            border-radius: 50px;
+            bottom: 140px;
+            transition: all 0.7s;
+            
+            img{
+                width: 250px; height: 80px;
+                border-radius: 70px;
+                padding: 5px 15px 5px 15px;
+            }
+        }
+        
+        li{
+            margin-right: 1196px;
+        }
+    }
+}
+
+body{
+    background-color: rgba(157, 60, 0, 0.819);
+
+    main{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        #sec-quienes-somos{
+            background-color: rgba(214, 214, 214, 0.7);
+            font-size: 18px;
+            margin: 5px 650px 5px 80px;
+            padding: 10px;
+            border-radius: 40px;
+
+            article{
+                border-radius: 40px;
+                padding: 20px;
+            }
+        }
+
+        #sec-servicios{
+            background-color: rgba(214, 214, 214, 0.7);
+            font-size: 18px;
+            margin: 5px 80px 5px 650px;
+            padding: 10px;
+            border-radius: 40px;
+
+            article{
+                border-radius: 40px;
+                padding: 20px;
+            }
+        }
+    }
+}
+
+footer{
+    background-color: rgb(0, 0, 82);
+}

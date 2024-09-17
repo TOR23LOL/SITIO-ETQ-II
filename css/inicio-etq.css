@@ -1,0 +1,101 @@
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+#nav-etq{
+    /*padding: 2px 0px 2px 0px;
+    
+    position: relative;
+    right: 15px;
+    width: 1525px;
+    height: 129px;
+    text-align: right;
+    
+    #ul-opciones{
+        border: solid 1px rgb(0, 0, 0);
+        padding: 40px;
+        width: 1475px;
+        position: relative;
+        bottom: 21px;
+        right: 10px;
+        background-color: white;
+        
+        li{
+            display: inline-block;
+            padding: 6px 15px 5px 15px;
+            border-radius: 30px;
+            
+            a{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                font-size: 18px;
+                transition: all 0.5s;
+            }
+            
+            a:hover{
+                color: rgb(0, 28, 142);
+            }
+        }
+
+    }
+    
+    #ul-img{
+        background-color: aqua;
+        list-style-type: none;
+
+        #img-a{
+            text-align: center;
+            position: relative;
+            padding: 78px 0px 0px 0px;
+            border-radius: 50px;
+            bottom: 140px;
+            transition: all 0.7s;
+            
+            img{
+                width: 150px; height: 50px;
+                border-radius: 70px;
+                padding: 5px 15px 5px 15px;
+            }
+        }
+        
+        li{
+            margin-right: 1196px;
+        }
+    }*/
+    border-bottom: solid 2px black;
+    height: 90px;
+
+    ul{
+        display: inline-flex;
+        width: 1250px;
+        list-style-type: none;
+        
+        img{
+            width: 160px; height: 55px;
+        }
+    }
+
+    #ul-opciones{
+        text-align: center;
+        margin-left: 220px;
+        margin-bottom: 200px;
+
+        a{
+            font-size: 15px;
+            text-decoration: none;
+            color: black;
+            padding: 5px 10px 5px 10px;
+            transition: all 0.7s;
+        }
+
+        a:hover{
+            color: rgb(0, 0, 136);
+            padding: 5px 10px 5px 10px;
+        }
+    }
+}
