@@ -99,3 +99,31 @@ body{
         }
     }
 }
+
+@font-face {
+    font-family: 'mifuente';
+    src: url('/assets/font/Peristiwa.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#fontitulo{
+    color: brown;
+    font-family: 'mifuente';
+}
+
+/*
+@font-face {
+    font-family: 'mifuente';
+    src: url('/assets/font/Perfect\ Bomber\ Free\ Personal\ Use.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+
+    font-family: 'mifuente', sans-serif;
+}
+
+
+*/
