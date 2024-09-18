@@ -7,15 +7,13 @@ body{
 }
 
 /*BARRA DE NAVEGACIÓN*/
-
-header{
+#header-etq{
     background-color: white;
-    display: flex;
     margin-right: 0;
+    opacity: 0.96;
     position: sticky;
     top: 0;
     z-index: 1;
-    opacity: 0.96;
 }
 
 #nav-etq{
@@ -57,6 +55,7 @@ body{
     #carrusel{
         padding: 30px 0px 30px 0px;
         background-color: rgba(128, 255, 0, 0.444);
+        border-bottom: solid 2px black;
 
         #carouselExampleSlidesOnly{
             background-color: rgba(128, 255, 0, 0.72);
@@ -102,14 +101,42 @@ body{
     }
 }
 
+@font-face {
+    font-family: 'fuente';
+    src: url('/assets/font/Harvest.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#font-h1{
+    color: black;
+    font-family: 'fuente';
+}
+
 #footer1{
     margin: 0;
-    height: 80px;
     background-color: rgba(128, 255, 0, 0.905);
     border: solid 1px black;
+    padding: 0px 20px 0px 20px;
     
     ul{
+        padding-bottom: 10px;
         list-style-type: none;
+        color: white;
+
+        a{
+            font-size: 16px;
+        }
+        
+        svg{
+            padding-top: 10px;
+            width: 30px;
+        }
+
+        #clip{
+            width: 27px;
+            padding-left: 4px;
+        }
     }
 }
 
@@ -119,5 +146,4 @@ body{
     color: white;
     text-align: center;
     font-size: 13px;
-    border-top: solid 2px white;
 }
