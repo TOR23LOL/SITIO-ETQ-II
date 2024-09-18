@@ -100,14 +100,42 @@ body{
     }
 }
 
+<<<<<<< HEAD
+=======
+@font-face {
+    font-family: 'mifuente';
+    src: url('/assets/font/Peristiwa.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+>>>>>>> 3011359d6b0c983e18320a1e275a2477905c827c
 #fontitulo{
     color: brown;
     font-family: 'mifuente';
 }
 
+<<<<<<< HEAD
 @font-face{
     font-family: 'mifuente';
     src: url('/SITIO-ETQ-II/assets/font/United\ PERSONAL\ USE\ ONLY!.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+=======
+/*
+@font-face {
+    font-family: 'mifuente';
+    src: url('/assets/font/Perfect\ Bomber\ Free\ Personal\ Use.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+
+    font-family: 'mifuente', sans-serif;
+}
+
+
+*/
+>>>>>>> 3011359d6b0c983e18320a1e275a2477905c827c
