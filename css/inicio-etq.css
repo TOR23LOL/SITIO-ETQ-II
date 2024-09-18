@@ -99,3 +99,15 @@ body{
         }
     }
 }
+
+#fontitulo{
+    color: brown;
+    font-family: 'mifuente';
+}
+
+@font-face{
+    font-family: 'mifuente';
+    src: url('/SITIO-ETQ-II/assets/font/United\ PERSONAL\ USE\ ONLY!.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
