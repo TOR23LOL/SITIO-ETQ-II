@@ -97,7 +97,21 @@ body{
             color: rgb(0, 0, 136);
             padding: 5px 10px 5px 10px;
         }
+        
+        }
     }
+<<<<<<< HEAD
+    @font-face {
+        font-family: 'mifuente';
+        src: url('/assets/font/CHERI___.TTF') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    #fontitulo{
+        color: rgb(235, 62, 10);
+        font-family: 'mifuente';
+    }
+=======
 }
 
 <<<<<<< HEAD
@@ -139,3 +153,4 @@ h1{
 
 */
 >>>>>>> 3011359d6b0c983e18320a1e275a2477905c827c
+>>>>>>> 1d82efaff454d55a96fe550fb003e93324353cc0
