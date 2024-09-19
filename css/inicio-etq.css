@@ -97,5 +97,16 @@ body{
             color: rgb(0, 0, 136);
             padding: 5px 10px 5px 10px;
         }
+        
+        }
     }
-}
+    @font-face {
+        font-family: 'mifuente';
+        src: url('/assets/font/CHERI___.TTF') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    #fontitulo{
+        color: rgb(235, 62, 10);
+        font-family: 'mifuente';
+    }
