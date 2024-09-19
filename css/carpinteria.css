@@ -12,7 +12,7 @@ body{
 header {
     background-color: #ecbb00;
     padding: 25px;
-    margin-top: 35px;
+    margin-top: 40px;
     opacity: 0.8;
     /*border-radius: 50px;*/
 }
@@ -65,8 +65,8 @@ section.logo-container {
 }
 
 .logo {
-    max-width: 150px;
-    padding-bottom: 30px;
+    max-width: 180px;
+    padding-bottom: 40px;
 }
 
 .carousel-inner img {
@@ -213,13 +213,22 @@ article img {
     text-align: center;
 
     ul{
-        margin-left: 300px;
+        margin-left: 255px;
     }
 }
 
 .art1{
-    text-align: center;
+    margin-left: 9px;
+    color: #fcfcfc;
+    font-weight: bold;
     ul{
-        margin-left: 450px;
+        margin-left: 300px;
     }
+}
+
+#Derechos{
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    padding: 20px 0 10px 0;
 }
