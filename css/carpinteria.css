@@ -14,6 +14,7 @@ header {
     padding: 25px;
     margin-top: 35px;
     opacity: 0.8;
+    /*border-radius: 50px;*/
 }
 
 nav {
@@ -47,6 +48,7 @@ section ul li a {
     transition: background-color 0.5s;
     transition: padding 0.5s;
     border-radius: 80px;
+    font-weight: bold;
 }
 
 a:hover{
@@ -57,7 +59,7 @@ a:hover{
 
 section.logo-container {
     position: absolute;
-    left: 50%;
+    left: 45%;
     display: flex;
     justify-content: center;
 }
@@ -69,6 +71,7 @@ section.logo-container {
 
 .carousel-inner img {
     margin-top: 20px;
+    padding: 0 35px 0 35px;
 }
 
 #parrafo{
@@ -89,12 +92,12 @@ section.logo-container {
     padding: 20px;
     border-radius: 30px;
     border: solid 4px #000000b9;
-    margin-top: 10px;
+    margin-top: 25px;
 }
 
 #parrafo .sobre-nosotros{
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 25px;
     background-color: #000000be;
     padding: 125px 10px 15px 10px;
     border-radius: 30px;
@@ -107,24 +110,29 @@ section.logo-container {
     }
 }
 
-#portafolio p{
-    font-family:Arial, Helvetica, sans-serif;
+#portafolio{
+    
     background-color: #ecbb00;
     font-weight: bold;
-    padding: 20px 10px 20px 10px;
-    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-top: 45px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 37px;
-    opacity: 0.8;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
     border-radius: 100px;
+    opacity: 0.8;
+
+    h4{
+        font-family:Arial, Helvetica, sans-serif;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+    }
 }
 
 #main-porta{
     display: inline-flex;
-    margin-top: 30px;
+    margin-top: 5px;
     padding-right: 20px;
     padding-left: 20px;
 
@@ -189,8 +197,11 @@ article img {
 #footer1 {
     background-color: #ecbb00; 
     padding: 20px 0;
-    h3 ul li{
+    margin-top: 20px;
+    opacity: 0.8;
+    h4{
         color: #000000;
+        font-weight: bold;
     }
 }
 
