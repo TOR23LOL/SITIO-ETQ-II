@@ -9,64 +9,67 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <section class="nav-left">
-                <ul>
-                    <li><a href="https://">INICIO</a></li>
-                    <li><a href="https://">SOBRE NOSOTROS</a></li>
-                </ul>
-            </section>
-            
-            <section class="logo-container">
-                <img src="/assets/img/carpinteria/LOGO.png" alt="Logo" class="logo">
-            </section>
     
-            <section class="nav-right">
-                <ul>
-                    <li><a href="https://">PORTAFOLIO</a></li>
-                    <li><a href="https://">CONTACTO</a></li>
-                </ul>
-            </section>
-        </nav>
-    </header>
+
+    <header>
+      <nav>
+          <section class="nav-left">
+              <ul>
+                  <li><a href="http://127.0.0.1:5500/componentes/carpinteria/index-c.html"><h3>INICIO </h3></a></li>
+                  <li><a href="#NOSOTROS"><h3 id="NOSOTROS">SOBRE NOSOTROS</h3></a></li>
+              </ul>
+          </section>
+          
+          <section>
+              <img class="logo-container" src="/assets/img/carpinteria/LOGOCARPI.jpeg" alt="Logo" class="logo">
+          </section>
+  
+          <section class="nav-right">
+              <ul>
+                  <li><a href="#PORTAFOLIO"><h3>PORTAFOLIO</h3></a></li>
+                  <li><a href="#CONTACTO"><h3>CONTACTO</h3></a></li>
+              </ul>
+          </section>
+      </nav>
+  </header>
 
     <main>
-        <section class="carrusel">
-            <div id="carouselExample" class="carousel slide">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img  src="/assets/img/carpinteria/Carrusel/carrusel1.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/assets/img/carpinteria/Carrusel/carrusel2.jpeg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/assets/img/carpinteria/Carrusel/carrusel3.jpeg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/assets/img/carpinteria/Carrusel/carrusel4.jpeg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/assets/img/carpinteria/Carrusel/carrusel5.jpeg" class="d-block w-100" alt="...">
-                    </div>
+      <section id="carrusel1">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2700">
+            <div class="carousel-inner" >
+                <div class="carousel-item active">
+                    <img src="/assets/img/carpinteria/Carrusel/carrusel1.jpg" class="" alt="...">
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <div class="carousel-item">
+                    <img src="/assets/img/carpinteria/Carrusel/carrusel2.jpeg" class="" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/img/carpinteria/Carrusel/carrusel3.jpeg" class="" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/img/carpinteria/Carrusel/carrusel4.jpeg" class="" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/img/carpinteria/Carrusel/carrusel5.jpeg" class="" alt="...">
+                </div>
             </div>
-        </section>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    
 
         <section id="parrafo">
             <article class="foto1">
                 <img id="foto1" src="/assets/img/carpinteria/grupal.jpeg" alt="" class="">
             </article>
-
+            <br id="NOSOTROS">
             <article class="sobre-nosotros">
                 
                 <h3>SOBRE NOSOTROS</h3>
@@ -75,32 +78,92 @@
                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</P>
             </article>
         </section>
-
+        <br id="PORTAFOLIO">
         <section id="portafolio">
             <h4>PORTAFOLIO</h4>
         </section>
         
-        <section id="main-porta">
+        <section id="carrusel2">
+          <div id="main-porta">
             <article class="main-porta1">
-                <img src="/assets/img/carpinteria/TRABAJO1.jpeg" alt="Descripción de la imagen 1">
-                <h2>TRABAJO 1</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div id="carouselCarpinteria" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/assets/img/carpinteria/TRABAJO1.jpeg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/img/carpinteria/TRABAJO1.jpeg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/img/carpinteria/TRABAJO1.jpeg" class="d-block w-100" alt="">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCarpinteria" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselCarpinteria" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <h2>CARPINTERIA BASICA</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </article>
         
             <article class="main-porta2">
-                <img src="/assets/img/carpinteria/TRABAJO2.jpeg" alt="Descripción de la imagen 2">
-                <h2>TRABAJO 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div id="carouselModulares" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/assets/img/carpinteria/TRABAJO1.jpeg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/img/carpinteria/TRABAJO1.jpeg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/img/carpinteria/TRABAJO1.jpeg" class="d-block w-100" alt="">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselModulares" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselModulares" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <h2>MODULARES</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </article>
         
             <article class="main-porta3">
-                <img src="/assets/img/carpinteria/TRABAJO3.jpeg" alt="Descripción de la imagen 3">
-                <h2>TRABAJO 3</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div id="carouselEscultura" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/assets/img/carpinteria/TRABAJO1.jpeg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/img/carpinteria/TRABAJO1.jpeg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/assets/img/carpinteria/TRABAJO1.jpeg" class="d-block w-100" alt="">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselEscultura" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselEscultura" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <h2>ESCULTURA Y TALLADO</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
             </article>
+        </div>
+        
         </section>
         <section class="Informacion">
             <h1>Contactanos</h1>
@@ -212,7 +275,7 @@
             </article>
             <br>
             <article class="art1">
-                <h4 class="Contacto">CONTACTO</h4>
+                <h4 id="CONTACTO" class="Contacto">CONTACTO</h4>
                 <ul>
                     <li>Email: Carpinteria@gmail.com</i>
                     <li>Teléfono: 023364484</li>

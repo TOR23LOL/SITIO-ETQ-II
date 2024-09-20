@@ -13,17 +13,18 @@ header {
     background-color: #ecbb00;
     padding: 25px;
     margin-top: 40px;
-    opacity: 0.8;
-    /*border-radius: 50px;*/
+    position: sticky;
+    top: 30px;
+    z-index: 1;
 }
 
 nav {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
     width: 100%;
     padding: 0 15px;
+    
 }
 
 section.nav-left, section.nav-right {
@@ -69,10 +70,14 @@ section.logo-container {
     padding-bottom: 40px;
 }
 
-.carousel-inner img {
+#carrusel1 .carousel-inner{
     margin-top: 20px;
-    padding: 0 35px 0 35px;
+    margin-bottom: 20px;
+    padding: 0px 35px 0px 35px;
+    width: 1350px;
+    height: 500px;
 }
+
 
 #parrafo{
     display: inline-flex;
@@ -130,48 +135,46 @@ section.logo-container {
     }
 }
 
-#main-porta{
+#main-porta {
     display: inline-flex;
     margin-top: 5px;
     padding-right: 20px;
     padding-left: 20px;
-
-    article{
-        border-radius: 10px;
-        box-shadow: 2px rgba(24, 136, 156, 0.9);
-        margin: 10px;
-        padding: 10px;
-    }
+    text-align: center;
 }
 
-.main-porta1{
-    background-color: #000000ab;
-    p{
-        color: white;
-    }
-    h2{
-        color: #fcfcfc;
-    }
+article {
+    border-radius: 10px;
+    box-shadow: 2px rgba(24, 136, 156, 0.9);
+    margin: 10px;
+    padding: 10px;
+    overflow: hidden; /* Evita el desbordamiento */
 }
 
-.main-porta2{
+.main-porta1, .main-porta2, .main-porta3 {
     background-color: #000000ab;
-    p{
-        color: white;
-    }
-    h2{
-        color: #fcfcfc;
-    }
 }
-.main-porta3{
-    background-color: #000000ab;
-    p{
-        color: white;
-    }
-    h2{
-        color: #fcfcfc;
-    }
+
+.main-porta1 p, .main-porta2 p, .main-porta3 p {
+    color: white;
 }
+
+.main-porta1 h2, .main-porta2 h2, .main-porta3 h2 {
+    color: #fcfcfc;
+}
+
+/* Ajustes para el carrusel */
+.carousel-inner {
+    max-height: 400px; /* Altura máxima del carrusel */
+}
+
+.carousel-inner img {
+    width: 100%; /* La imagen ocupa el 100% del contenedor */
+    height: 400px; /* Establece una altura fija */
+    object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
+    display: block; /* Elimina el espacio debajo de la imagen */
+}
+
 
 article img {
     width: 100%; /* Ajusta el tamaño de la imagen al ancho del contenedor */
@@ -181,7 +184,7 @@ article img {
 
 #Redes1 {
     display: flex; /* Usar flexbox para apilar artículos */
-    flex-direction: column; /* Apilar artículos verticalmente */
+   flex-direction: column; /* Apilar artículos verticalmente */
     text-align: center;
       
 }
@@ -260,7 +263,7 @@ article img {
 .Informacion{
     text-align: center;
     padding-top: 50px;
-    color: #f8f7f4; 
+    color: #ecbb00; 
     
 
 }
@@ -273,6 +276,17 @@ article img {
     color: #000;
 }
 
+@font-face {
+    font-family: 'mifuente';
+    src: url('/assets/font/Hey\ Comic.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+h3{
+    font-family: 'mifuente';
+
+
+}
 
 
 
