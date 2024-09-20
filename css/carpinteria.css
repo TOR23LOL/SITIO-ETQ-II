@@ -12,8 +12,14 @@ body{
 header {
     background-color: #ecbb00;
     padding: 25px;
-    margin-top: 40px;
+    margin-top: 20px;
     opacity: 0.8;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    a{
+        font-size: 5px;
+    }
     /*border-radius: 50px;*/
 }
 
@@ -29,7 +35,6 @@ nav {
 section.nav-left, section.nav-right {
     display: flex;
 }
-
 section ul {
     list-style-type: none;
     padding: 0;
@@ -38,12 +43,12 @@ section ul {
 }
 
 section ul li {
-    margin: 0 80px; /* Ajusta el margen entre los elementos de la lista */
+    margin: 0 55px; /* Ajusta el margen entre los elementos de la lista */
 }
 
 section ul li a {
     text-decoration: none;
-    color: #000000;
+    color: black;
     transition: color 0.5s;
     transition: background-color 0.5s;
     transition: padding 0.5s;
@@ -52,22 +57,25 @@ section ul li a {
 }
 
 a:hover{
-    color: rgb(255, 255, 255);
+    color: white;
     padding: 15px 1px 15px 1px;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
 }
 
-section.logo-container {
+.logo-container {
     position: absolute;
+    width: 150px;
+    height: 100px;
     left: 45%;
-    display: flex;
-    justify-content: center;
+    top: -11px;
+    border-radius: 10px;
 }
 
 .logo {
     max-width: 180px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
+
 
 .carousel-inner img {
     margin-top: 20px;
@@ -186,11 +194,14 @@ article img {
       
 }
 
-#Redes1 ul li a {
+#Redes1 ul li a{
     list-style-type: none;
    
     text-decoration: none;
-    color: white;
+    color: black;
+}
+#Redes1 ul li a:hover{
+background-color: white;
 }
 
 
@@ -200,9 +211,21 @@ article img {
     margin-top: 20px;
     opacity: 0.8;
     h4{
-        color: #000000;
+        color: #f8f5f5;
         font-weight: bold;
     }
+
+    
+        #face{
+            color: blue;
+        }
+        #insta{
+            color: rgb(107, 3, 107);
+        }
+        #whats{
+            color: green;
+        }
+    
 }
 
 .Sociales  {
@@ -219,7 +242,7 @@ article img {
 
 .art1{
     margin-left: 9px;
-    color: #fcfcfc;
+    color: #080808;
     font-weight: bold;
     ul{
         margin-left: 300px;
@@ -272,8 +295,15 @@ article img {
 .Informacion h5{
     color: #000;
 }
+@font-face {
+    font-family: 'mifuente';
+    src: url('/assets/font/Hey\ Comic.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+h3{
+    font-family: 'mifuente';
 
 
-
-
+}
 
